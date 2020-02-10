@@ -6,9 +6,9 @@ services:
     container_name: example-node-postgres
     restart: always # every time start-up will restart
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 123456
-      POSTGRES_DB: example-node-postgres
+      POSTGRES_USER: userBLC
+      POSTGRES_PASSWORD: KqaEB8wT4UUur3vB
+      POSTGRES_DB: sampledb
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql # mapping to file containing initial SQL commands
     ports:
