@@ -1,9 +1,9 @@
 module.exports = {
   configDB: {
-    user: "postgresql",
-    host: "0.0.0.0",
-    database: "postgresql",
-    password: "postgresql",
+    user: "userBLC",
+    host: "172.17.0.9",
+    database: "sampledb",
+    password: "KqaEB8wT4UUur3vB",
     port: 5432
   }
 };
